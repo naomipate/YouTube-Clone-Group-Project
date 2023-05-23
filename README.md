@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# YouTube Clone Trello and Collaborators
+
+Trello: [https://trello.com/b/LL7YVDX4/youtube-clone-project](https://trello.com/b/LL7YVDX4/youtube-clone-project)
+
+Group Collaborators: Angel Wu, Naomi Pate, Onyx McQueen
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
