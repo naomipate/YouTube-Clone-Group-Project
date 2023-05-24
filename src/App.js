@@ -1,10 +1,23 @@
+// Put imports here!
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// Put imported components here!
+import Home from './Components/Home';
+import About from './Components/About';
+import Navbar from './Components/NavBar';
+
+//App.css
 import './App.css';
 
 function App() {
   return (
-    <div className='App'>
-      <h1>Hello! We'll be making our Youtube App here!</h1>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/about' element={<About />}/>
+      </Routes>
+    </Router>
   );
 }
 
