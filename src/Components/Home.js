@@ -1,10 +1,13 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 export default function Home() {
-    fetch(
-      `https://youtube.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_API_KEY}`
-    );
-    
+  const BASE_URL = `https://youtube.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_API_KEY}`;
+
+  fetch(BASE_URL)
+    .then((response) => response.json())
+    .then((data) => console.log(data));
+
   const [input, setInput] = useState({
     userInput: "",
   });
