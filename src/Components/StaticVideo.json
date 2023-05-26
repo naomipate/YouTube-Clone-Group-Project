@@ -1,0 +1,18 @@
+{
+    "kind": "youtube#videoListResponse",
+    "etag": "TBr2NkCFrKsXLOfXnLLFQMceAos",
+    "items": [
+        {
+            "kind": "youtube#video",
+            "etag": "taWZEiqx8iIKbzrdcf7VuDlNtiw",
+            "id": "_UR-l3QI2nE",
+            "player": {
+                "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/_UR-l3QI2nE\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 1,
+        "resultsPerPage": 1
+    }
+}
