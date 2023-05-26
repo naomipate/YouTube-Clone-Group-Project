@@ -1,11 +1,68 @@
 {
     "kind": "youtube#videoListResponse",
-    "etag": "TBr2NkCFrKsXLOfXnLLFQMceAos",
+    "etag": "MOvfp709rTQF254Mkcaw3Mi5gqU",
     "items": [
         {
             "kind": "youtube#video",
-            "etag": "taWZEiqx8iIKbzrdcf7VuDlNtiw",
+            "etag": "BXJ6dd-zpuMPsKEfDyKGq-ltIjA",
             "id": "_UR-l3QI2nE",
+            "snippet": {
+                "publishedAt": "2014-05-01T11:12:58Z",
+                "channelId": "UCbCmjCuTUZos6Inko4u57UQ",
+                "title": "ABC SONG | ABC Songs for Children - 13 Alphabet Songs & 26 Videos",
+                "description": "ABC Song and Alphabet Song Ultimate kids songs and baby songs Collection with 13 entertaining \"English abcd songs\" and 26 a to z fun Alphabet episodes, phonics,  and games for children, kids, kindergarten, and toddlers. Learn English Alphabet in 50 minutes. http://abckidtv-shop.spreadshirt.com/\n\nCheck out our other educational videos and songs that are directed toward little minds!\n\nLyrics :\nABC kid TV \nHi Everyone,\nLet's learn the alphabet \nwith so many fun ABC songs\nand so many fun ABC games and stories\nwith so many friends from all over the world.\n\nLet's go! Follow me!\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\nNow we learned all the letters.\nLet's sing all the abc songs one more time.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\nNow I know my ABC's\nNext time won't you sing with me?\n\nGet our latest songs for children by subscribing to our channel, and let us know what your favorite kids songs are!\n\nNow we learned all the letters.\nLet's sing all the abc songs one more time.\n\nHi everyone! Please enjoy our new video which is a 50 minute collection of ABC songs and videos that explores the alphabet in exciting and diverse ways!  There are 13 different ABC songs for children that are entertaining, educational and engaging. All of our songs invite your child to sing, dance and learn as they explore the alphabet with fun characters, dancing letters and   animals!  There are also 26 fun ABC stories and games that explore each letter individually! Please share our new video with your friends!\n\nList of the Songs in the video\nA: “Surprise Symphony” \nJoseph Hayden\n\nB: “Variations (Twinkle Twinkle)”\nWolfgang Amadeus Mozart\n\nC: “Turkish March”\nLudwig van Beethoven\n\nD: “Toy Symphony”\nLeopold Mozart\n\nE: “Air on G String”\nJohann Sebastian Bach\n\nF: “Op39. No8.”\nP.I. Tchaikovsky\n\nG: “Emperor Waltz”\nJohann Strauss, Jr.\n\nH: “Dance of Hours”\nAmilcare Ponchielli\n\nI: “Gavotte”\nFrancois Gossec\n\nJ: “Sailing”\nMacks\n\nJ: “Pop goes the weasel”\nTraditional\n\nK: Mexican folk song\n\nL: “Symphony No. 5”\nLudwig van Beethoven\n\nL: “Light Cavalry”\nFranz von Suppe\n\nM: “Turkish March”\nWolfgang Amadeus Mozart\n\nN: “From the New World”\nAntonin Dvorak\n\nO: “Lullaby”\nJohannes Brahms\n\nP: “The Happy Farmer”\nRobert Schumann\n\nQ: “Trumpet Tune & Air”\nHenry Purcell\n\nR: “Waltz for Piano Op.18”\nFryderyk Chopin\n\nS: “Spring from the Four Seasons”\nAntonio Vivaldi\n\nT: “The Entertainer”\nScott Joplin\n\nU: “Pizzicato-Polka”\nJohann Strauss, Jr.\n\nV: “Can Can”\nJacques Offenbach\n\nW: “on the Beautiful Blue Danube”\nJohann Strauss, Jr.\n\nY: “Minuet, BWV Anh.114”\nJohann Sebastian Bach\n\nZ: “Nut-cracker”\nP.I. Tchaikovsky\n\nAbout Cocomelon:\n\nWhere kids can be happy and smart!\n\nAt Cocomelon, our goal is to help make learning a fun and enjoyable experience for kids by creating beautiful 3D animation, educational lyrics, and toe-tapping music. \n\nKids will laugh, dance, sing, and play along with our videos, learning letters, numbers, animal sounds, colors, and much, much more while simply enjoying our friendly characters and fun stories.\n\nWe also make life easier for parents who want to keep their kids happily entertained, giving you the peace of mind that your children are receiving quality educational content.  Our videos also give you an opportunity to teach and play with your children as you both watch!\n\nWEBSITE: http://www.Cocomelon.com\nFACEBOOK: https://www.facebook.com/Cocomelonkids\nINSTAGRAM: https://www.instagram.com/cocomelon_official/\nTWITTER: https://www.twitter.com/Cocomelonkids\n\n\nCopyright © Treasure Studio, Inc. All rights reserved.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_UR-l3QI2nE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_UR-l3QI2nE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_UR-l3QI2nE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/_UR-l3QI2nE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/_UR-l3QI2nE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Cocomelon - Nursery Rhymes",
+                "tags": [
+                    "cocomelon",
+                    "children songs",
+                    "nursery rhymes",
+                    "sing-along",
+                    "preschool",
+                    "abckidtv",
+                    "kindergarten",
+                    "kids education",
+                    "kid songs",
+                    "baby songs",
+                    "sing-along songs",
+                    "kids videos",
+                    "toddler",
+                    "kids animation",
+                    "kids entertainment"
+                ],
+                "categoryId": "27",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "ABC SONG | ABC Songs for Children - 13 Alphabet Songs & 26 Videos",
+                    "description": "ABC Song and Alphabet Song Ultimate kids songs and baby songs Collection with 13 entertaining \"English abcd songs\" and 26 a to z fun Alphabet episodes, phonics,  and games for children, kids, kindergarten, and toddlers. Learn English Alphabet in 50 minutes. http://abckidtv-shop.spreadshirt.com/\n\nCheck out our other educational videos and songs that are directed toward little minds!\n\nLyrics :\nABC kid TV \nHi Everyone,\nLet's learn the alphabet \nwith so many fun ABC songs\nand so many fun ABC games and stories\nwith so many friends from all over the world.\n\nLet's go! Follow me!\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\nNow we learned all the letters.\nLet's sing all the abc songs one more time.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\nNow I know my ABC's\nNext time won't you sing with me?\n\nGet our latest songs for children by subscribing to our channel, and let us know what your favorite kids songs are!\n\nNow we learned all the letters.\nLet's sing all the abc songs one more time.\n\nHi everyone! Please enjoy our new video which is a 50 minute collection of ABC songs and videos that explores the alphabet in exciting and diverse ways!  There are 13 different ABC songs for children that are entertaining, educational and engaging. All of our songs invite your child to sing, dance and learn as they explore the alphabet with fun characters, dancing letters and   animals!  There are also 26 fun ABC stories and games that explore each letter individually! Please share our new video with your friends!\n\nList of the Songs in the video\nA: “Surprise Symphony” \nJoseph Hayden\n\nB: “Variations (Twinkle Twinkle)”\nWolfgang Amadeus Mozart\n\nC: “Turkish March”\nLudwig van Beethoven\n\nD: “Toy Symphony”\nLeopold Mozart\n\nE: “Air on G String”\nJohann Sebastian Bach\n\nF: “Op39. No8.”\nP.I. Tchaikovsky\n\nG: “Emperor Waltz”\nJohann Strauss, Jr.\n\nH: “Dance of Hours”\nAmilcare Ponchielli\n\nI: “Gavotte”\nFrancois Gossec\n\nJ: “Sailing”\nMacks\n\nJ: “Pop goes the weasel”\nTraditional\n\nK: Mexican folk song\n\nL: “Symphony No. 5”\nLudwig van Beethoven\n\nL: “Light Cavalry”\nFranz von Suppe\n\nM: “Turkish March”\nWolfgang Amadeus Mozart\n\nN: “From the New World”\nAntonin Dvorak\n\nO: “Lullaby”\nJohannes Brahms\n\nP: “The Happy Farmer”\nRobert Schumann\n\nQ: “Trumpet Tune & Air”\nHenry Purcell\n\nR: “Waltz for Piano Op.18”\nFryderyk Chopin\n\nS: “Spring from the Four Seasons”\nAntonio Vivaldi\n\nT: “The Entertainer”\nScott Joplin\n\nU: “Pizzicato-Polka”\nJohann Strauss, Jr.\n\nV: “Can Can”\nJacques Offenbach\n\nW: “on the Beautiful Blue Danube”\nJohann Strauss, Jr.\n\nY: “Minuet, BWV Anh.114”\nJohann Sebastian Bach\n\nZ: “Nut-cracker”\nP.I. Tchaikovsky\n\nAbout Cocomelon:\n\nWhere kids can be happy and smart!\n\nAt Cocomelon, our goal is to help make learning a fun and enjoyable experience for kids by creating beautiful 3D animation, educational lyrics, and toe-tapping music. \n\nKids will laugh, dance, sing, and play along with our videos, learning letters, numbers, animal sounds, colors, and much, much more while simply enjoying our friendly characters and fun stories.\n\nWe also make life easier for parents who want to keep their kids happily entertained, giving you the peace of mind that your children are receiving quality educational content.  Our videos also give you an opportunity to teach and play with your children as you both watch!\n\nWEBSITE: http://www.Cocomelon.com\nFACEBOOK: https://www.facebook.com/Cocomelonkids\nINSTAGRAM: https://www.instagram.com/cocomelon_official/\nTWITTER: https://www.twitter.com/Cocomelonkids\n\n\nCopyright © Treasure Studio, Inc. All rights reserved."
+                }
+            },
             "player": {
                 "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/_UR-l3QI2nE\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
             }
