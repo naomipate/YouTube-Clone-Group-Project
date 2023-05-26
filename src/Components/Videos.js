@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import staticData from "./StaticData.json";
 // import staticVideo from "./StaticVideo.json";
 export default function Videos() {
-  // const VIDEO_URL = `https://youtube.googleapis.com/youtube/v3/videos?part=player&id=${id}&key=${process.env.REACT_APP_API_KEY}`;
+  // const VIDEO_URL = `https://youtube.googleapis.com/youtube/v3/videos?type=video&part=player&part=snippet&id=${id}&key=${process.env.REACT_APP_API_KEY}`;
   console.log(staticData);
   const { id } = useParams();
   let result = staticData.items.filter((element) => element.id.videoId === id);
