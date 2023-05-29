@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar(){
     return(
-<nav className="navbar navbar-expand-lg text-bg-danger p-2">
+<nav className="navbar navbar-expand-lg text-bg-danger p-2 font-link">
   <div className="container-fluid">
   <span className="navbar-brand text-light mb-0 h1">Youtube</span>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
