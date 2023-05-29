@@ -1,1 +1,3 @@
-Hellooooooooooooooooooooo!
+StaticData.json holds static data for a query of abc in the youtube API. 
+We can use this to program as needed so we don't exhaust our key 
+in a short time and have to wait for the next day
