@@ -1,17 +1,19 @@
 import { useParams } from "react-router-dom";
-import staticData from "./StaticData.json";
-// import staticVideo from "./StaticVideo.json";
-export default function Videos() {
-  // const VIDEO_URL = `https://youtube.googleapis.com/youtube/v3/videos?type=video&part=player&part=snippet&id=${id}&key=${process.env.REACT_APP_API_KEY}`;
-  console.log(staticData);
-  const { id } = useParams();
-  let result = staticData.items.filter((element) => element.id.videoId === id);
-  console.log(result);
-  // let obj = {...result[0].id}
-  // console.log(obj.videoId)
+import staticVideo from "./StaticVideo.json";
 
-  // let videoResult = staticVideo.items.map(
-  //   (element) => element.player.embedHtml
-  // );
-  return <div>this is video</div>;
+export default function Videos() {
+  const { id } = useParams();
+  console.log(id);
+
+  // const VIDEO_URL = `https://youtube.googleapis.com/youtube/v3/videos?type=video&part=player&part=snippet&id=${id}&key=${process.env.REACT_APP_API_KEY}`;
+  // console.log(staticData);
+
+  let videoResult = staticVideo.items[0].player.embedHtml;
+
+  return (
+    <div>
+      {/* <div dangerouslySetInnerHTML={{ __html: videoResult }}></div> */}
+      <h4>{staticVideo.items[0].snippet.title}</h4>
+    </div>
+  );
 }
