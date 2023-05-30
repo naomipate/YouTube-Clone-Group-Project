@@ -32,8 +32,26 @@ export default function Home() {
     event.preventDefault();
     setTitle(input);
     setInput("");
+
+    search(title)
   }
+
 console.log(title)
+
+function search(title){
+    if(title === ''){
+        return('Please search something.')
+    }
+    else if(title !== '') {
+    // useEffect(() => {
+  //   axios
+  //     .get(BASE_URL)
+  //     .then((response) => setData(response.json()))
+  //     .then((responseData) => setData(responseData.data))
+  //     .catch((error) => return(error));
+  // }, []);
+    }
+}
 
   return (
     <>

@@ -10,7 +10,7 @@ export default function About(){
             </div>
             <div className="container w-75">
                 <h2 className="text-center bg-danger text-light p-2">Meet Our Team! :D</h2>
-                <div className="row">
+                <div className="row pb-4">
                     <div className="col-4">
                         <div className="card">
                             <img src='https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/bread.jpg?strip=all&lossy=1&ssl=1' alt='Pic of bread' />

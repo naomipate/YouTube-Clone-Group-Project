@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 import staticVideo from "./StaticVideo.json";
 
+// import { AspectRatio } from "react-aspect-ratio";
+
 export default function Videos() {
   const { id } = useParams();
   console.log(id);
@@ -11,9 +13,9 @@ export default function Videos() {
   let videoResult = staticVideo.items[0].player.embedHtml;
 
   return (
-    <div>
-      {/* <div dangerouslySetInnerHTML={{ __html: videoResult }}></div> */}
-      <h4>{staticVideo.items[0].snippet.title}</h4>
+    <div className="text-center pt-5 d-flex flex-column">
+        <div className="" dangerouslySetInnerHTML={{ __html: videoResult }}></div>
+      <h5 className="pt-3">{staticVideo.items[0].snippet.title}</h5>
     </div>
   );
 }
