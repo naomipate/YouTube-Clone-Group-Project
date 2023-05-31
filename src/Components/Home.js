@@ -12,6 +12,8 @@ export default function Home() {
   const [title, setTitle] = useState("");
   const [input, setInput] = useState("");
 
+  const [searched , setSearched] = useState(false);
+
   // const BASE_URL = `https://youtube.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_API_KEY}&q=${title}&type=video&part=snippet`;
 
   // useEffect(() => {
@@ -30,6 +32,7 @@ export default function Home() {
   
   function handleSubmit(event) {
     event.preventDefault();
+    setSearched(true);
     setTitle(input);
     setInput("");
 
@@ -42,13 +45,32 @@ function search(title){
     if(title === ''){
         return('Please search something.')
     }
-    else if(title !== '') {
+    else {
     // useEffect(() => {
   //   axios
   //     .get(BASE_URL)
   //     .then((response) => setData(response.json()))
   //     .then((responseData) => setData(responseData.data))
-  //     .catch((error) => return(error));
+  //     .catch((error) => {
+//             return (
+//                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+//   <div class="modal-dialog">
+//     <div class="modal-content">
+//       <div class="modal-header">
+//         <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+//         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+//       </div>
+//       <div class="modal-body">
+//         <p>Oh No! {error}</p>
+//       </div>
+//       <div class="modal-footer">
+//         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+//       </div>
+//     </div>
+//   </div>
+// </div>
+//             )
+  // });
   // }, []);
     }
 }
@@ -70,20 +92,24 @@ function search(title){
         </form>
       </div>
       <div className="container my-5">
-        <div className="row text-center m-4">
-          {staticData.items.map((element) => {
-            return (
-              <Link to={`/videos/${element.id.videoId}`} className="col-sm-6 p-2">
-                <img
-                  src={element.snippet.thumbnails.medium.url}
-                  className="img-thumbnail"
-                  alt=""
-                />
-                <h5 className="text-wrap m-5">{element.snippet.title}</h5>
-              </Link>
-            );
-          })}
-        </div>
+        <div className="row text-center m-4">{
+            searched ? (
+                staticData.items.map((element) => {
+                    return (
+                      <Link to={`/videos/${element.id.videoId}`} className="col-sm-6 p-2">
+                        <img
+                          src={element.snippet.thumbnails.medium.url}
+                          className="img-thumbnail"
+                          alt=""
+                        />
+                        <h5 className="text-wrap m-5">{element.snippet.title}</h5>
+                      </Link>
+                    );
+                  })
+            ) : (
+                <p className="bg-secondary-subtle p-3 fs-4 rounded">Welcome to our website! Search for a video 😎</p>
+            )
+        }</div>
       </div>
     </>
   );
