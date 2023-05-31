@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-//import staticData from "./StaticData.json";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
@@ -25,7 +24,6 @@ export default function Home() {
     axios
       .get(BASE_URL)
       .then((response) => {
-        console.log(response.data);
         setSearchState(true);
         setSearchData(response.data);
       })

@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-// import staticVideo from "./StaticVideo.json";
 
 // import { AspectRatio } from "react-aspect-ratio";
 
@@ -15,7 +14,6 @@ export default function Videos() {
     axios
       .get(VIDEO_URL)
       .then((response) => {
-        console.log(response.data.items[0].player.embedHtml);
         setVideoData(response.data);
       })
       .catch((error) => {
