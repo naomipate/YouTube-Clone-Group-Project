@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import staticData from "./StaticData.json";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
@@ -8,38 +7,65 @@ export default function Home() {
   const [input, setInput] = useState("");
   const [searchState, setSearchState] = useState(false);
 
-  const [searched, setSearched] = useState(false);
-
-  // const BASE_URL = `https://youtube.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_API_KEY}&q=${title}&type=video&part=snippet`;
-
   function handleInput(event) {
     setInput(event.target.value);
   }
 
   function handleSubmit(event) {
     event.preventDefault();
-    setSearched(true);
-    // setTitle(input);
-    // setInput("");
-
-    setSearchState(true);
-    // setInput("");
-
-    search();
+    if (input !== "") {
+      search(input);
+      setInput("");
+    }
   }
 
   function search() {
     // const BASE_URL = `https://youtube.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_API_KEY}&q=${input}&type=video&part=snippet`;
-
     // axios
     //   .get(BASE_URL)
     //   .then((response) => {
-    //     console.log(response.data);
+    //     setSearchState(true);
     //     setSearchData(response.data);
     //   })
-
     //   .catch((error) => {
     //     console.log(error);
+        return (
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    Modal title
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <p>Oh No! {error}</p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        );
     //   });
   }
 
@@ -63,7 +89,7 @@ export default function Home() {
         </form>
       </div>
       <div className="container my-5">
-        {/* <div className="row text-center m-4">
+        <div className="row text-center m-4">
           {searchState ? (
             searchData.items.map((element) => {
               return (
@@ -83,7 +109,7 @@ export default function Home() {
           ) : (
             <p>Oh No! Search for a video 😎</p>
           )}
-        </div> */}
+        </div>
       </div>
     </>
   );
