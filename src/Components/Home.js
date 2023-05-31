@@ -8,6 +8,8 @@ export default function Home() {
   const [input, setInput] = useState("");
   const [searchState, setSearchState] = useState(false);
 
+  const [searched, setSearched] = useState(false);
+
   // const BASE_URL = `https://youtube.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_API_KEY}&q=${title}&type=video&part=snippet`;
 
   function handleInput(event) {
@@ -16,6 +18,9 @@ export default function Home() {
 
   function handleSubmit(event) {
     event.preventDefault();
+    setSearched(true);
+    // setTitle(input);
+    // setInput("");
 
     setSearchState(true);
     // setInput("");
