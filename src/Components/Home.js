@@ -1,16 +1,14 @@
 import React, { useEffect, useState } from "react";
 import staticData from "./StaticData.json";
 import { Link } from "react-router-dom";
-// import axios from "axios";
+import axios from "axios";
 
 export default function Home() {
-  const [data, setData] = useState(staticData);
-  // const [input, setinput] = useState({
-  //   userInput: ""
-  // })
-
-  const [title, setTitle] = useState("");
+  const [searchData, setSearchData] = useState([]);
   const [input, setInput] = useState("");
+  const [searchState, setSearchState] = useState(false);
+
+  const [searched, setSearched] = useState(false);
 
   function handleInput(event) {
     setInput(event.target.value);
@@ -19,8 +17,9 @@ export default function Home() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    setTitle(input);
-    setInput("");
+    setSearched(true);
+    // setTitle(input);
+    // setInput("");
 
     search(title);
   }
