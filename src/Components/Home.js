@@ -20,15 +20,15 @@ export default function Home() {
   }
 
   function search() {
-    // const BASE_URL = `https://youtube.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_API_KEY}&q=${input}&type=video&part=snippet`;
-    // axios
-    //   .get(BASE_URL)
-    //   .then((response) => {
-    //     setSearchState(true);
-    //     setSearchData(response.data);
-    //   })
-    //   .catch((error) => {
-    //     console.log(error);
+    const BASE_URL = `https://youtube.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_API_KEY}&q=${input}&type=video&part=snippet`;
+    axios
+      .get(BASE_URL)
+      .then((response) => {
+        setSearchState(true);
+        setSearchData(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
         return (
           <div
             class="modal fade"
@@ -51,7 +51,7 @@ export default function Home() {
                   ></button>
                 </div>
                 <div class="modal-body">
-                  <p>Oh No! {error}</p>
+                  <p>Oh No!</p>
                 </div>
                 <div class="modal-footer">
                   <button
@@ -66,7 +66,7 @@ export default function Home() {
             </div>
           </div>
         );
-    //   });
+      });
   }
 
   return (
