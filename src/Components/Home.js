@@ -29,18 +29,18 @@ export default function Home() {
   }
 
   function search() {
-    const BASE_URL = `https://youtube.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_API_KEY}&q=${input}&type=video&part=snippet`;
+    // const BASE_URL = `https://youtube.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_API_KEY}&q=${input}&type=video&part=snippet`;
 
-    axios
-      .get(BASE_URL)
-      .then((response) => {
-        console.log(response.data);
-        setSearchData(response.data);
-      })
+    // axios
+    //   .get(BASE_URL)
+    //   .then((response) => {
+    //     console.log(response.data);
+    //     setSearchData(response.data);
+    //   })
 
-      .catch((error) => {
-        console.log(error);
-      });
+    //   .catch((error) => {
+    //     console.log(error);
+    //   });
   }
 
   return (
@@ -81,7 +81,7 @@ export default function Home() {
               );
             })
           ) : (
-            <p>Oh No! Please search something!</p>
+            <p>Oh No! Search for a video 😎</p>
           )}
         </div> */}
       </div>
