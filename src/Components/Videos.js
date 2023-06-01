@@ -14,8 +14,8 @@ export default function Videos() {
     comment: "",
   });
 
-  const VIDEO_URL = `https://youtube.googleapis.com/youtube/v3/videos?type=video&part=player&part=snippet&id=${id}&key=${process.env.REACT_APP_API_KEY}`;
-
+  // const VIDEO_URL = `https://youtube.googleapis.com/youtube/v3/videos?type=video&part=player&part=snippet&id=${id}&key=${process.env.REACT_APP_API_KEY}`;
+  const VIDEO_URL = `https://youtube.googleapis.com/youtube/v3/videos?type=video&part=player&part=snippet&id=${id}&key=AIzaSyCvRtknzDyFJ-8FJipAzOGr-wq2H96amFM`;
   useEffect(() => {
     axios
       .get(VIDEO_URL)
