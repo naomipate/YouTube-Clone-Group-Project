@@ -20,8 +20,7 @@ export default function Home() {
   }
 
   function search() {
-    // const BASE_URL = `https://youtube.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_API_KEY}&q=${input}&type=video&part=snippet`;
-    const BASE_URL = `https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCvRtknzDyFJ-8FJipAzOGr-wq2H96amFM&q=${input}&type=video&part=snippet`;
+    const BASE_URL = `https://youtube.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_API_KEY}&q=${input}&type=video&part=snippet`;
     axios
       .get(BASE_URL)
       .then((response) => {
