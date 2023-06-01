@@ -15,7 +15,6 @@ export default function Videos() {
   });
 
   const VIDEO_URL = `https://youtube.googleapis.com/youtube/v3/videos?type=video&part=player&part=snippet&id=${id}&key=${process.env.REACT_APP_API_KEY}`;
-
   useEffect(() => {
     axios
       .get(VIDEO_URL)
@@ -25,7 +24,7 @@ export default function Videos() {
       .catch((error) => {
         return error;
       });
-  }, []);
+  }, [VIDEO_URL]);
 
   function handleCommentSubmit(event) {
     event.preventDefault();
@@ -91,7 +90,8 @@ export default function Videos() {
               return (
                 <div key={index}>
                   <p className="bg-light rounded fs-4 border p-2">
-                    <span className="text-danger">{element.userName}</span> says <span>{`"${element.comment}"`}</span>
+                    <span className="text-danger">{element.userName}</span> says{" "}
+                    <span>{`"${element.comment}"`}</span>
                   </p>
                 </div>
               );

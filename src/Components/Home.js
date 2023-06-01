@@ -107,7 +107,9 @@ export default function Home() {
               );
             })
           ) : (
-            <p className="bg-light p-4 fs-3 rounded">Hey there! Search for a video to get started 😎</p>
+            <p className="bg-light p-4 fs-3 rounded">
+              Hey there! Search for a video to get started 😎
+            </p>
           )}
         </div>
       </div>
