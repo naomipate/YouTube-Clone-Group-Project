@@ -4,6 +4,18 @@ Trello: [https://trello.com/b/LL7YVDX4/youtube-clone-project](https://trello.com
 
 Group Collaborators: Angel Wu, Naomi Pate, Onyx McQueen
 
+The website is a group project aimed at replicating the popular video-sharing platform, YouTube. The main purpose of the project was to create a functioning website with similar features and functionality to YouTube.
+
+One of the key features of the website is the ability to share videos through a shareable link. Users can copy and send the link to others, allowing them to directly access and view the shared video. This feature enables easy sharing and distribution of content across the platform.
+
+The website also includes a search bar that allows users to find videos based on their preferences. When users enter a search query, the website's search functionality retrieves relevant videos from the database and displays them to the user. This feature enhances user experience by providing a quick and efficient way to discover specific videos.
+
+Additionally, the website incorporates a comment section where users can leave comments on videos. This feature enables user interaction and engagement, allowing users to express their thoughts, opinions, and feedback on the videos they watch. It promotes community building and fosters a sense of participation among users.
+
+Overall, our YouTube clone project successfully replicates some of the core features of the original platform, such as video sharing, search functionality, and user comments. It showcases our collaborative effort with two other developers and demonstrates our ability to create a functional and interactive website resembling YouTube.
+
+Link to our website! -> <https://spectacular-pony-32d350.netlify.app>
+
 
 
 
