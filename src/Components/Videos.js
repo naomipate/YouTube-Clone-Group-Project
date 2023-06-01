@@ -90,8 +90,8 @@ export default function Videos() {
             {commentArray.map((element, index) => {
               return (
                 <div key={index}>
-                  <p className="bg-outline-secondary">
-                    {element.userName} says {`"${element.comment}"`}
+                  <p className="bg-light rounded fs-4 border p-2">
+                    <span className="text-danger">{element.userName}</span> says <span>{`"${element.comment}"`}</span>
                   </p>
                 </div>
               );
