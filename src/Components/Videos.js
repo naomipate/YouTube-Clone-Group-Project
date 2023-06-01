@@ -19,6 +19,7 @@ export default function Videos() {
     axios
       .get(VIDEO_URL)
       .then((response) => {
+        response.preventDefault();
         setVideoData(response.data);
       })
       .catch((error) => {
