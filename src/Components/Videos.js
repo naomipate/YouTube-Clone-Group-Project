@@ -25,7 +25,7 @@ export default function Videos() {
       .catch((error) => {
         return error;
       });
-  }, []);
+  }, [VIDEO_URL]);
 
   function handleCommentSubmit(event) {
     event.preventDefault();
@@ -91,7 +91,8 @@ export default function Videos() {
               return (
                 <div key={index}>
                   <p className="bg-light rounded fs-4 border p-2">
-                    <span className="text-danger">{element.userName}</span> says <span>{`"${element.comment}"`}</span>
+                    <span className="text-danger">{element.userName}</span> says{" "}
+                    <span>{`"${element.comment}"`}</span>
                   </p>
                 </div>
               );
